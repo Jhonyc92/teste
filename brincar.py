@@ -5,3 +5,5 @@ def brincar(self, tempo):
     if self.saude > 100:
         
         self.saude = 100
+        
+    self.atualizar_humor()
